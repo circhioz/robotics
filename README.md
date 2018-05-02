@@ -1,6 +1,7 @@
 # Robotics [089013]
 
 [![license][license-img]][license-link]
+[![travis][travis-img]][travis-link]
 
 This repo contains the projects done as part of the class [089013 - Robotics][1] held in the spring 2018 semester at [POLIMI][2].
 
@@ -28,4 +29,6 @@ See file [`LICENSE`][4] for further reference.
  [license-link]: https://opensource.org/licenses/Apache-2.0
  [license-img]: https://img.shields.io/badge/License-Apache%202.0-blue.svg
  [banner-img]: /images/first_project.gif?raw=true
+ [travis-link]: https://travis-ci.org/circhioz/robotics
+ [travis-img]: https://travis-ci.org/circhioz/robotics.svg?branch=master
 
