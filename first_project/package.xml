@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>first_project</name>
+  <version>0.1.0</version>
+  <description>The first_project package</description>
+
+  <maintainer email="francesco.circhetta@mail.polimi.it">Francesco Circhetta</maintainer>
+
+  <license>Apache 2.0</license>
+
+  <url type="website">http://github.com/circhioz/robotics</url>
+
+  <author email="francesco.circhetta@mail.polimi.it">Francesco Circhetta</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>roscpp</depend>
+  <depend>gazebo_ros</depend>
+  <depend>message_runtime</depend>
+  <depend>std_msgs</depend>
+  <depend>gazebo_plugins</depend>
+
+  <export>
+    <gazebo_ros plugin_path="${prefix}/lib"/>
+    <gazebo_ros gazebo_model_path="${prefix}/models"/>
+    <gazebo_ros gazebo_media_path="${prefix}/models"/>
+  </export>
+</package>

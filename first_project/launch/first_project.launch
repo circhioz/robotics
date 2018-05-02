@@ -1,0 +1,6 @@
+<launch>
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name" value="$(find first_project)/worlds/first_project.world"/>
+    <arg default="true" name="verbose"/>
+  </include>
+</launch>
